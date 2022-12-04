@@ -12,7 +12,7 @@ namespace lab2ex1
             int suma=0;
             while(n!=0)
             {
-                suma = suma + n % 2;
+                suma = suma + n % 10;
                 n = n / 10;
             }
             Console.WriteLine("Suma cifrelor este: "+suma);
